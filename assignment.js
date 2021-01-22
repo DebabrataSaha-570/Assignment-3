@@ -31,7 +31,7 @@ function budgetCalculator(watch, phone, laptop) {
 
   var total = totalWatchPrice + totalPhonePrice + totalLaptopPrice;
 
-  if (watch < 0 || mobile < 0 || laptop < 0) {
+  if (watch < 0 || phone < 0 || laptop < 0) {
 
     console.log("Price can not be negative");
 
@@ -103,10 +103,16 @@ function megaFriend(friends) {
 }
 
 
-var friendList = ["Jhankar Mahbub","Programming-hero-community","Shiful Islam Bappi", "saiful Alam", "Joy banik","tawsif ahnaf"];
+var friendList = ["Jhankar Mahbub","Programming-hero-community","Shiful Islam Bappi", "saiful Alam", "Joy banik","tawsif ahnaf","Mithun sutradhar"];
 
 
 console.log(megaFriend(friendList));
+
+console.log(hotelCost(30));
+
+console.log(budgetCalculator(5, 5, 5));
+
+console.log(kilometerToMeter(2));
 
 
 
