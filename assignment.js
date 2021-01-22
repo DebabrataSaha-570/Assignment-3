@@ -57,8 +57,8 @@ function megaFriend(friends){
   return max;
 }
 
-console.log(megaFriend(["shiful Islam Bappishiful Islam Bappishiful Islam Bappishiful Islam Bappishiful Islam Bappi","shiful Islam Bappishiful Islam Bappi" ,"saiful alam","Tawsif ahnaf","Joy Banik"]));
-console.log(hotelCost(25));
+// console.log(megaFriend(["shiful Islam Bappishiful Islam Bappishiful Islam Bappishiful Islam Bappishiful Islam Bappi","shiful Islam Bappishiful Islam Bappi" ,"saiful alam","Tawsif ahnaf","Joy Banik"]));
+// console.log(hotelCost(25));
 
 
 
